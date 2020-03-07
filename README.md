@@ -1,5 +1,5 @@
 # Spring Boot Rest Service with Hateoas
-##Hateoas Implementation for Spring Boot Rest Service Application
+ `Hateoas Implementation for Spring Boot Rest Service Application`
 
 ## Desscription
 Hateoas is used for sending additional info along with the rest services for example, We are exposing user details by id, for the same rest service response we will add a link to fetch all users.
