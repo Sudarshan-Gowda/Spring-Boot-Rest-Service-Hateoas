@@ -40,17 +40,14 @@ File -> Import -> Maven -> Existing Maven project
 
 |Spring Boot Configuration | Class or Java property files  |
 |--------------------------|---|
-|The Main Class | [EmployeeController]
-(https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Service-Hateoas/blob/master/src/main/java/com/star/sud/controller/RestController.java) |
-|Properties Files | [application.properties]
-(https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Service-Hateoas/blob/master/src/main/resources/application.properties) |
-|Data Base Scripts Files | [scripts.sql]
-(https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Service-Hateoas/blob/master/src/main/resources/scripts.sql) |
+|The Main Class | [EmployeeController](https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Service-Hateoas/blob/master/src/main/java/com/star/sud/controller/RestController.java) |
+|Properties Files | [application.properties](https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Service-Hateoas/blob/master/src/main/resources/application.properties) |
+|Data Base Scripts Files | [scripts.sql](https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Service-Hateoas/blob/master/src/main/resources/scripts.sql) |
 
 ## Steps to test the application:
 
 1) Once the application is installed properly, Run the application
-2) Once the application is deployed properly, Create schema and execute query into database. 
+2) Once the application is deployed properly, Create schema and execute query into database. <br>
    For scripts reference use the link [scripts.sql]
    (https://github.com/Sudarshan-Gowda/Spring-Boot-Rest-Service-Hateoas/blob/master/src/main/resources/scripts.sql)
 3) To enable the hateoas we need to use the dependency called hateoas in you pom project as below
